@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  img {
+    width: 200px; 
+    height: 150px; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+    display: block; 
+  }
+  
+  select {
+    display: block; 
+    margin: 25px auto; 
+  }

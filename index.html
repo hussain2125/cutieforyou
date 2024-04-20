@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Dropdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="Audio\music.m4a" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="selectSound">
+        <source src="Audio\select_sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="a1080pSound">
+        <source src="Audio\1080p.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div>
+        <img id="selectedImage" src="images/default.jpg" alt="Your Image">
+        <select id="resolutionSelect">
+            <option value=""></option>
+            <option value="144p">144p</option>
+            <option value="240p">240p</option>
+            <option value="480p">480p</option>
+            <option value="720p">720p</option>
+            <option value="1080p">1080p</option>
+        </select>
+    </div>
+    <Script src="script.js"></Script>
+</body>
+
+</html>
